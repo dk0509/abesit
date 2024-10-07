@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    background-color:rgb(44, 43, 43);
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+}
+.menu-item,.lgn,.sgn{
+    border: 3px;
+    background-color:rgb(44, 43, 43);
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(130, 129, 129);
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+   
+}
+
+.about{
+    width:40%;
+    text-align: justify;
+}
+.news{
+    width: 30%;
+}
+.login{
+    width: 30%;
+}
+.heading{
+    background-color: black;
+    color: rgb(172, 172, 172);
+    padding: 10px;
+}
+.para{
+    padding: 0px 10px;
+    font-size: 18px;
+}
+table{
+    margin: auto;
+    font-size: 20px;
+}
+.Copyrights{
+    font-size: 40px;
+}
