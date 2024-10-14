@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <p></p>
+    <p>hello</p>
+    <p></p>
+    <h1>Heading</h1>
+    <a href="https://youtube.com" id="a1">Youtube</a>
+    <br>
+    <button onclick="display()">Click Here</button>
+    <button onclick="headerc()">Change Header</button> -->
+
+    <!-- <button onclick="addContent()">Add Content</button>
+    
+    <p id="res"></p>
+    <button>click here</button>
+    <script>
+        const button=document.querySelector('button');
+        button.addEventListener('click',()=>{
+            document.getElementById('res').innerHTML="updated"
+        });
+    </script> -->
+    <input type="text" name="" id="txt" placeholder="input....">
+  <p id="res"></p>
+
+
+  <script>
+    const handlekeypress = (event) => {
+      document.getElementById('res').innerHTML = 'Key Pressed ${event.target.value}';
+    }
+    let myinput = document.getElementById('txt');
+    myinput.addEventListener('keypress', handlekeypress);
+  </script>
+</body>
+</html>
