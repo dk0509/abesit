@@ -1,0 +1,66 @@
+const movies =[
+    {
+        id: 1,
+        image : "https://rukminim2.flixcart.com/image/612/612/xif0q/movie/9/d/d/2013-blu-ray-eagle-hindi-golmaal-original-imagms36uz2hucpy.jpeg?q=70",
+        title : "GOLMAAL",
+        language: "Hindi",
+        cost :349,
+    },
+    {
+        id: 2,
+        image : "https://rukminim2.flixcart.com/image/612/612/xif0q/movie/4/f/r/2009-dvd-eagle-hindi-tarzan-the-wonder-car-original-imahfdpjpqg85j5d.jpeg?q=70",
+        title : "TARZAN-THE WONDER CAR",
+        language: "Hindi",
+        cost :199,
+    },
+    {
+        id: 3,
+        image : "https://rukminim2.flixcart.com/image/612/612/av-media/movies/j/v/c/zero-dark-thirty-original-imadnzhhttdeyydc.jpeg?q=70",
+        title : "Zero Dark Thirty",
+        language: "English",
+        cost :489,
+    },
+    {
+        id: 4,
+        image : "https://rukminim2.flixcart.com/image/612/612/jc6jl3k0/movie/h/h/d/1972-blu-ray-eagle-hindi-bawarchi-blu-ray-original-imaffc889xx7zm4n.jpeg?q=70",
+        title : "Bawarchi (Blu Ray)",
+        language: "Hindi",
+        cost :449,
+    },
+    {
+        id: 5,
+        image : "https://rukminim2.flixcart.com/image/612/612/av-media/movies/q/w/c/gangs-of-wasseypur-i-original-imadnzhqzxzrgumh.jpeg?q=70",
+        title : "Gangs Of Wasseypur",
+        language: "Hindi",
+        cost :599,
+    },
+    {
+        id: 6,
+        image : "https://rukminim2.flixcart.com/image/612/612/l45xea80/movie/v/m/b/1696-dvd-captain-india-hindi-pyar-hi-pyar-original-imagf4b6nyjrsj7x.jpeg?q=70",
+        title : "PYAR HI PYAR",
+        language: "Hindi",
+        cost :599,
+    },
+    {
+        id: 7,
+        image : "https://rukminim2.flixcart.com/image/612/612/xif0q/movie/d/k/u/2008-dvd-eagle-hindi-sindoor-original-imagt4wqzvnfbvjg.jpeg?q=70",
+        title : "SINDOOR",
+        language: "Hindi",
+        cost :599,
+    },
+    {
+        id: 8,
+        image : "https://rukminim2.flixcart.com/image/612/612/kiulxu80-0/movie/t/b/1/2008-dvd-eagle-hindi-bhoothnath-original-imafyjt7dnyfgqzp.jpeg?q=70",
+        title : "BHOOTHNATH",
+        language: "Hindi",
+        cost :599,
+    },
+    {
+        id: 9,
+        image : "https://rukminim2.flixcart.com/image/612/612/xif0q/movie/q/s/0/2008-dvd-eagle-hindi-kaminey-original-imahfhe8dkmg7pka.jpeg?q=70",
+        title : "KAMINEY",
+        language: "Hindi",
+        cost :599,
+    },
+];
+export default movies;

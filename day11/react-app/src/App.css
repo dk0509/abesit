@@ -1,0 +1,16 @@
+#disp
+{
+  background-color: rgb(255, 255, 225);
+  font-size: 20px;
+  border: 10px;
+}
+h1{
+  background-color: rgb(40, 87, 40);
+  font-size: 18px;
+}
+h2{
+  background-color: rgb(149, 254, 198);
+  color: wheat;
+  font-size: 15px;
+  border-radius: 10px;
+}
